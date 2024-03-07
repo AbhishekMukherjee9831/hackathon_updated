@@ -27,8 +27,7 @@ public class WebDevelopmentPage extends BasePage{
 	@FindBy(xpath = "//input[@type='search']")WebElement LanguageSearchBox;
 	@FindBy(xpath = "//button[@aria-label=\"Search\"]")WebElement LanguageSearchButton;
 
-	//@FindBy(xpath = "(//span[text()='English']//parent::div//preceding-sibling::span)[1]")WebElement EnglishLang;
-	//@FindBy(xpath="(//div[@class='cds-checkboxAndRadio-labelText']//span[contains(text(),'English')])[1]")WebElement EnglishLang;
+
 	@FindBy(xpath= "(//span[text()='English']/parent::span/parent::div//preceding-sibling::span)[1]")WebElement EnglishLang;
 	@FindBy(xpath = "//span[contains(text(),'Apply')]")WebElement ApplyButton;
 	@FindBy(xpath = "//label[@class=\"cds-checkboxAndRadio-label\"]//span[contains(text(),'Beginner')]")WebElement BeginnerLevel;

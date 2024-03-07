@@ -65,7 +65,7 @@ public class ExtentReportManager extends BaseClass implements ITestListener{
 		test = extent.createTest(result.getName()); // create a new entry in the report
 		test.assignCategory(result.getMethod().getGroups());
 
-		test.log(Status.PASS, "Test case PASSED is:" + result.getName()); // update status p/f/s
+		test.log(Status.PASS, "Test case PASSED is:" + result.getName()); // update status pass/fail/skipped
 		
 		try {
 			String imagePath = new ScreenShots(driver).screenshot(result.getName());

@@ -23,6 +23,7 @@
        <include name="regression"/>
        <include name="Master"/>
        <include name="sanity"/>
+       <include name="Smoke"/>
 
        </run>
 

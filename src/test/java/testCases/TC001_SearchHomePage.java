@@ -21,7 +21,7 @@ public class TC001_SearchHomePage extends BaseClass {
 		
 	}
 	
-	@Test(priority = 8,groups= {"regression","Master"})
+	@Test(priority = 8,groups= {"Smoke","Master"})
 	public void Search2() throws IOException, InterruptedException {
 		ScreenShots ss = new ScreenShots(driver);
 		HomePage hp = new HomePage(driver);
@@ -31,7 +31,7 @@ public class TC001_SearchHomePage extends BaseClass {
 		logger.info("---//Language Learning Page opened//---");
 	}
 	
-	@Test(priority = 11,groups= {"regression","Master"})
+	@Test(priority = 11,groups= {"Smoke","regression","Master"})
 	public void ThirdtimeHomepage() throws InterruptedException, IOException {
 		ScreenShots ss = new ScreenShots(driver);
 		HomePage hp = new HomePage(driver);

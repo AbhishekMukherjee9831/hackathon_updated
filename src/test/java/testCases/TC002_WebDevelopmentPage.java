@@ -13,7 +13,7 @@ public class TC002_WebDevelopmentPage extends TC001_SearchHomePage {
 	@Test(priority = 2,groups= {"regression","Master"})
 	public void levelSelector() throws InterruptedException {
 		wp = new WebDevelopmentPage(driver);
-//		wp.scrollScreen();
+
 		wp.selectLevel();
 		logger.info("---//Level Selected//---");
 	}
@@ -29,7 +29,7 @@ public class TC002_WebDevelopmentPage extends TC001_SearchHomePage {
 	
 	WebDevelopmentPage wp = null;
 	
-	@Test(priority =4,groups= {"regression","Master"})
+	@Test(priority =4,groups= {"Smoke","Master"})
 	public void Result() throws InterruptedException {
 		wp = new WebDevelopmentPage(driver);
 		Thread.sleep(2000);
@@ -48,7 +48,7 @@ public class TC002_WebDevelopmentPage extends TC001_SearchHomePage {
 	
 	
 	
-	@Test(priority = 7,groups= {"regression","Master"})
+	@Test(priority = 7,groups= {"Smoke","Master"})
 	public void Headings() throws InterruptedException {
 		wp = new WebDevelopmentPage(driver);
 

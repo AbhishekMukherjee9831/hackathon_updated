@@ -21,7 +21,6 @@
           <include name="Headings"/>
           <include name="languageSelect"/>
           <include name="details"/>
-          <include name="searchHomePage"/>
           <include name="displayLevels"/>
           <include name="setup"/>
           <include name="displayLanguages"/>
