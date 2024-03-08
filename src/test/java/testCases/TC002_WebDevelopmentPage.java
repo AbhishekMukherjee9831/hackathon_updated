@@ -1,6 +1,7 @@
 package testCases;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 import org.testng.annotations.Test;
 
@@ -37,7 +38,7 @@ public class TC002_WebDevelopmentPage extends TC001_SearchHomePage {
 	}
 	
 	@Test(priority = 6,groups= {"regression","Master"})
-	public void deatilsFirstCard() throws InterruptedException, IOException {
+	public void deatilsFirstCard() throws InterruptedException, IOException, ArrayIndexOutOfBoundsException {
 		ScreenShots ss = new ScreenShots(driver);
 		wp = new WebDevelopmentPage(driver);
 		wp.FirstNameRatingTime();

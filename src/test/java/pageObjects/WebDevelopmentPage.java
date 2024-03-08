@@ -90,7 +90,7 @@ public class WebDevelopmentPage extends BasePage{
 		
 	}
 	
-	public void FirstNameRatingTime() throws IOException {
+	public void FirstNameRatingTime() throws IOException, ArrayIndexOutOfBoundsException {
 		String Head1 = FirstHead.getText();
 		System.out.println("Course:" +Head1);
 		String Rateing1 = Rating1.getText();
@@ -109,7 +109,7 @@ public class WebDevelopmentPage extends BasePage{
 		
 	}
 	
-	public void SecondNameRatingTime() throws IOException {
+	public void SecondNameRatingTime() throws IOException, ArrayIndexOutOfBoundsException {
 		String Head2 = SecondHead.getText();
 		System.out.println("Course:" +Head2);
 		String Rateing2 = Rating2.getText();

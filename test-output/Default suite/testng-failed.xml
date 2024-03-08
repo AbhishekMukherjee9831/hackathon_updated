@@ -3,25 +3,20 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC004_BusinessCoursera">
+      <class name="testCases.TC002_WebDevelopmentPage">
         <methods>
+          <include name="Headings"/>
           <include name="tearDown"/>
           <include name="levelSelector"/>
+          <include name="languageSelect"/>
           <include name="Search2"/>
           <include name="deatilsFirstCard"/>
-          <include name="clickContactUs"/>
-          <include name="ThirdtimeHomepage"/>
-          <include name="Result"/>
-          <include name="clickSolution"/>
-          <include name="Headings"/>
-          <include name="languageSelect"/>
-          <include name="details"/>
           <include name="searchHomePage"/>
-          <include name="displayLevels"/>
+          <include name="ThirdtimeHomepage"/>
           <include name="setup"/>
-          <include name="displayLanguages"/>
+          <include name="Result"/>
         </methods>
-      </class> <!-- testCases.TC004_BusinessCoursera -->
+      </class> <!-- testCases.TC002_WebDevelopmentPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
